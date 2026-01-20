@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | DiscoverTheWild</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon_logo_remove_bg.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img class="logo" src="images/logo_remove_bg.png" alt="DiscoverTheWild" /></a>
+
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+
+      <nav id="nav">
+        <ul class="nav_links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="parks.html">Parks</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html"class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact_hero" data-animate="">
+      <h1>Get in Touch</h1>
+      <p>We're here to help you plan the perfect adventure.</p>
+    </section>
+
+    <section class="contact_wrapper" data-animate="">
+      <div class="contact_card">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+          <div class="form_group">
+            <label>Name</label>
+            <input type="text" id="name" required />
+          </div>
+
+          <div class="form_group">
+            <label>Email</label>
+            <input type="email" id="email" required />
+          </div>
+
+          <div class="form_group">
+            <label>Message</label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact_info_section" data-animate="">
+      <h2>Contact Information</h2>
+      <p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+      <p><i class="fa-solid fa-envelope"></i> info@discoverthewild.pk</p>
+      <p><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</p>
+    </section>
+
+    <section class="faq_section" data-animate="">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq_item">
+        <h3>How can I plan my visit?</h3>
+        <p>
+          You can contact us anytime for park details, travel tips, and safety
+          guidelines.
+        </p>
+      </div>
+
+      <div class="faq_item">
+        <h3>Is guide service available?</h3>
+        <p>
+          Yes! We help connect you with trusted local guides for various parks.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta-section" data-animate>
+      <div class="cta-content" data-animate>
+        <p class="cta-subtitle">JOIN US TODAY!</p>
+        <h2>Ready to discover amazing national parks?</h2>
+        <a href="parks.html" class="cta-btn">TAKE THE LEAP</a>
+      </div>
+
+      <div class="newsletter" data-animate>
+        <h3>Newsletter sign up</h3>
+        <p>Get latest news & updates</p>
+        <form onsubmit="return validateNewsletter(event)" data-animate>
+          <input type="email" id="newsletterEmail" placeholder="your email" />
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
+    </section>
+
+     <footer data-animate>
+      <div class="footer-container">
+        <div class="footer-about" data-animate>
+          <h3>DiscoverTheWild</h3>
+          <p>
+            DiscoverTheWild is a digital guide to Pakistan’s breathtaking
+            national parks — connecting travelers to the beauty, wildlife, and
+            culture of nature’s most stunning places.
+          </p>
+          <div class="social-icons">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links" data-animate>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="parks.html">Parks</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-hours" data-animate>
+          <h4>Working Hours</h4>
+          <ul>
+            <li>Mon – Fri: 9:00 AM – 6:00 PM</li>
+            <li>Saturday: 10:00 AM – 4:00 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" data-animate>
+        <p>© 2025 DiscoverTheWild | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+    <script src="JS/contact.js"></script>
+  </body>
+</html>

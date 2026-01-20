@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parks | DiscoverTheWild</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="shortcut icon" href="images/favicon_logo_remove_bg.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img class="logo" src="images/logo_remove_bg.png" alt="DiscoverTheWild" /></a>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <nav id="nav">
+      <ul class="nav_links">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="parks.html" class="active">Parks</a></li>
+        <li><a href="gallery.html" >Gallery</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="contact.html" >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="parks_intro">
+    <h1>Explore Pakistan’s National Parks</h1>
+    <p>
+      From the snow-covered mountains of Khunjerab to the desert wonders of
+      Hingol — Pakistan’s national parks are treasures of biodiversity and
+      adventure.
+    </p>
+  </section>
+
+  <section class="parks_grid">
+    <div class="park_card1">
+      <img src="images/Hingol-National-Park-Pakistans-Hidden-Gem-2.jpg" alt="Hingol National Park" />
+      <h3>Hingol National Park</h3>
+      <p>
+        A stunning mix of deserts, mountains, and coastline — home to unique
+        rock formations, the Hingol River, and the famous “Princess of Hope”.
+      </p>
+      <a href="Hingol.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/Meadows_of_Chitral_Gol_National_Park.jpg" alt="Chitral Gol National Park" />
+      <h3>Chitral Gol National Park</h3>
+      <p>
+        Located in Khyber Pakhtunkhwa, this park shelters the endangered
+        markhor amidst breathtaking alpine meadows and snowy peaks.
+      </p>
+      <a href="Chitral.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/khunjerab-national-park.jpg" alt="Khunjerab National Park" />
+      <h3>Khunjerab National Park</h3>
+      <p>
+        Pakistan’s highest national park, where snow leopards and Marco Polo
+        sheep roam under the shadow of the Karakoram mountains.
+      </p>
+      <a href="Khunjerab.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/Central_Karakoram_National_Park.jpg" alt="Central Karakoram National Park" />
+      <h3>Central Karakoram National Park</h3>
+      <p>
+        Home to K2, glaciers, and alpine meadows — the largest protected area
+        in Pakistan, rich with wildlife and mountain beauty.
+      </p>
+      <a href="Karakoram.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/Deosai National Park.jpg" alt="Deosai National Park" />
+      <h3>Deosai National Park</h3>
+      <p>
+        Known as the “Land of Giants”, Deosai is famous for its vast plains,
+        Himalayan brown bears, and wildflower-filled landscapes.
+      </p>
+      <a href="Deosai.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/759c7-margalla-hills-national-park-1024x683-1.jpg" alt="Margalla Hills National Park" />
+      <h3>Margalla Hills National Park</h3>
+      <p>
+        A peaceful escape near Islamabad offering hiking trails, birdwatching,
+        and panoramic views of the capital city.
+      </p>
+      <a href="Margalla.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/Kirthar National Park.jpg" alt="Kirthar National Park" />
+      <h3>Kirthar National Park</h3>
+      <p>
+        Stretching across the rugged Kirthar Mountains of Sindh, this park is
+        home to the Sindh ibex, urial, and chinkara gazelle — a haven for
+        desert wildlife.
+      </p>
+      <a href="Kirthar.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="park_card1">
+      <img src="images/fairy meadows.jpg" alt="Fairy Meadows National Park" />
+      <h3>Fairy Meadows National Park</h3>
+      <p>
+        Located in the heart of Gilgit-Baltistan, Fairy Meadows offers
+        breathtaking views of Nanga Parbat and lush green meadows surrounded
+        by snow-capped peaks.
+      </p>
+      <a href="Fairy.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section class="cta-section" data-animate>
+    <div class="cta-content" data-animate>
+      <p class="cta-subtitle">JOIN US TODAY!</p>
+      <h2>Ready to discover amazing national parks?</h2>
+      <a href="parks.html" class="cta-btn">TAKE THE LEAP</a>
+    </div>
+
+    <div class="newsletter" data-animate>
+      <h3>Newsletter sign up</h3>
+      <p>Get latest news & updates</p>
+      <form onsubmit="return validateNewsletter(event)" data-animate>
+          <input type="email" id="newsletterEmail" placeholder="your email" />
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+    </div>
+  </section>
+
+     <footer data-animate>
+      <div class="footer-container">
+        <div class="footer-about" data-animate>
+          <h3>DiscoverTheWild</h3>
+          <p>
+            DiscoverTheWild is a digital guide to Pakistan’s breathtaking
+            national parks — connecting travelers to the beauty, wildlife, and
+            culture of nature’s most stunning places.
+          </p>
+          <div class="social-icons">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links" data-animate>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="parks.html">Parks</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-hours" data-animate>
+          <h4>Working Hours</h4>
+          <ul>
+            <li>Mon – Fri: 9:00 AM – 6:00 PM</li>
+            <li>Saturday: 10:00 AM – 4:00 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" data-animate>
+        <p>© 2025 DiscoverTheWild | All Rights Reserved</p>
+      </div>
+    </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
